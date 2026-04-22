@@ -2,70 +2,247 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>隐私政策 - Aurora Seljuk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>隐私政策 - 阿洛瑟柱（武汉市）智能科技有限公司</title>
+  <meta name="description" content="阿洛瑟柱（武汉市）智能科技有限公司隐私政策" />
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      background: #f5f9ff;
-      color: #1a2a3a;
-      line-height: 1.8;
-      padding: 40px;
-      max-width: 800px;
-      margin: auto;
+    :root {
+      --bg: #f6faff;
+      --card: rgba(255, 255, 255, 0.82);
+      --border: rgba(126, 167, 219, 0.28);
+      --text: #16324f;
+      --muted: #4f6b88;
+      --accent: #7cb8ff;
+      --accent2: #d8ebff;
     }
-    h1, h2 {
-      color: #0a2540;
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(124, 184, 255, 0.28), transparent 34%),
+        radial-gradient(circle at right, rgba(192, 222, 255, 0.35), transparent 28%),
+        linear-gradient(180deg, #eef6ff 0%, #f6faff 100%);
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    .wrap {
+      width: min(960px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 64px;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .brand {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .back {
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 10px 14px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.6);
+      transition: all 0.2s ease;
+    }
+
+    .back:hover {
+      background: rgba(255, 255, 255, 0.95);
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: 0 14px 32px rgba(90, 130, 180, 0.14);
+      backdrop-filter: blur(14px);
+    }
+
+    h1 {
+      font-size: clamp(30px, 5vw, 44px);
+      margin: 0 0 12px;
+      line-height: 1.15;
+      color: #0f2740;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-size: 24px;
+      color: #0f2740;
+    }
+
+    p, li {
+      font-size: 16px;
+      color: var(--text);
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    .footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 14px;
+      border-top: 1px solid rgba(126, 167, 219, 0.2);
+      padding-top: 16px;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 22px;
+      }
+
+      .nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
     }
   </style>
 </head>
 <body>
+  <div class="wrap">
+    <header class="nav">
+      <div class="brand">阿洛瑟柱（武汉市）智能科技有限公司</div>
+      <a class="back" href="index.html">返回首页</a>
+    </header>
 
-<h1>隐私政策</h1>
+    <main class="card">
+      <h1>隐私政策</h1>
+      <p class="muted">
+        更新日期：2026年4月21日<br />
+        生效日期：2026年4月21日
+      </p>
 
-<p>更新日期：2026年</p>
+      <p>
+        阿洛瑟柱（武汉市）智能科技有限公司（以下简称“我们”）重视用户个人信息与业务数据的保护。
+        本隐私政策用于说明：当您访问我们的官方网站、使用我们的应用、提交咨询信息，或接受我们的数字化方案与相关服务时，
+        我们如何收集、使用、存储、保护和处理您的信息，以及您享有的相关权利。
+      </p>
 
-<p>欢迎使用 Aurora Seljuk 提供的应用与服务。本隐私政策用于说明我们如何收集、使用、存储和保护您的信息。</p>
+      <h2>一、我们收集的信息</h2>
+      <p>根据您使用的具体场景，我们可能收集以下信息：</p>
+      <ul>
+        <li>您主动提交的信息，例如姓名、联系电话、公司名称、所属行业、业务需求描述等咨询信息；</li>
+        <li>账户与身份信息，例如用于登录、身份识别和权限区分所需的手机号、账号标识、角色信息等；</li>
+        <li>业务使用信息，例如您在系统中录入、维护或生成的记录数据、汇总数据、对账数据、结算数据等；</li>
+        <li>设备与日志信息，例如设备型号、操作系统版本、应用版本、访问时间、操作记录、异常日志等；</li>
+        <li>为保障服务正常运行、安全防护和问题排查所必需的其他信息。</li>
+      </ul>
 
-<h2>一、我们收集的信息</h2>
-<p>在您使用本应用过程中，我们可能会收集以下信息：</p>
-<ul>
-  <li>手机号（用于登录与身份验证）</li>
-  <li>用户身份信息（如角色：打包员、送货员、记账员等）</li>
-  <li>业务数据（如布草数量、收发记录、结算数据等）</li>
-</ul>
+      <h2>二、信息的收集方式</h2>
+      <p>我们主要通过以下方式收集信息：</p>
+      <ul>
+        <li>您在官网表单、邮件、电话或其他沟通方式中主动向我们提供；</li>
+        <li>您在使用应用、系统或相关服务过程中主动录入或产生；</li>
+        <li>系统在服务运行过程中自动记录必要的设备、日志和访问数据；</li>
+        <li>在必要范围内，由为本服务提供技术支持的第三方基础服务协助处理相关数据。</li>
+      </ul>
 
-<h2>二、信息的使用方式</h2>
-<p>我们收集的信息仅用于：</p>
-<ul>
-  <li>提供账号登录与身份识别服务</li>
-  <li>实现布草流转记录与数据统计功能</li>
-  <li>生成月度对账与结算数据</li>
-  <li>提升产品功能与用户体验</li>
-</ul>
+      <h2>三、我们如何使用这些信息</h2>
+      <p>我们收集和使用信息，主要用于以下目的：</p>
+      <ul>
+        <li>与您建立联系，回复咨询，了解需求，并提供产品、方案或服务建议；</li>
+        <li>实现账号登录、身份识别、权限控制和账号管理；</li>
+        <li>支持系统中的记录、流转、确认、汇总、导出、对账和结算等核心功能；</li>
+        <li>维护服务稳定运行，进行故障排查、安全保护和体验优化；</li>
+        <li>在符合法律法规要求的前提下，改进产品设计与服务质量。</li>
+      </ul>
 
-<h2>三、信息的存储与保护</h2>
-<p>您的数据将存储于云服务平台（如 CloudBase）中，我们采取合理的技术手段保护数据安全，防止数据丢失、泄露或被篡改。</p>
+      <h2>四、信息共享与披露</h2>
+      <p>
+        除法律法规另有规定，或为实现服务所必需的情况外，我们不会向无关第三方出售、出租或提供您的个人信息。
+      </p>
+      <p>在以下情形下，我们可能在必要范围内共享相关信息：</p>
+      <ul>
+        <li>获得您的明确授权或同意；</li>
+        <li>为实现服务功能，由云服务、邮件服务、表单服务、技术支持服务等第三方提供必要支持；</li>
+        <li>根据法律法规、监管要求、司法程序或行政机关要求进行披露；</li>
+        <li>为保护我们、用户或公众的合法权益，在必要且合法的范围内进行披露。</li>
+      </ul>
 
-<h2>四、信息的共享</h2>
-<p>我们不会向任何第三方出售您的个人信息，除非：</p>
-<ul>
-  <li>获得您的明确授权</li>
-  <li>法律法规要求</li>
-</ul>
+      <h2>五、信息存储与安全保护</h2>
+      <p>
+        我们会采取合理、必要的技术与管理措施，防止信息被未经授权访问、披露、篡改、丢失或滥用。
+        您的相关数据可能存储在为本服务提供支持的云服务环境中，并根据实际业务需要进行访问控制、备份和安全维护。
+      </p>
+      <p>
+        尽管我们会尽力保护您的信息安全，但任何网络传输与存储方式都无法保证绝对安全。
+        因此，我们也建议您在使用过程中妥善保管账号信息，并避免通过不安全方式传输敏感内容。
+      </p>
 
-<h2>五、您的权利</h2>
-<p>您有权：</p>
-<ul>
-  <li>查询您的个人数据</li>
-  <li>申请更正或删除数据</li>
-  <li>注销账号</li>
-</ul>
+      <h2>六、信息保留与删除</h2>
+      <p>
+        我们会根据业务需要、服务提供目的以及适用法律法规要求，在合理期限内保存您的信息。
+      </p>
+      <ul>
+        <li>对于官网咨询信息，我们会在完成沟通、跟进和必要留档后，按合理期限保存；</li>
+        <li>对于系统业务数据，我们会在服务持续期间内保存，以支持正常使用、历史查询、汇总和导出；</li>
+        <li>超出必要保存期限后，我们会根据实际情况删除、匿名化处理，或在法律法规要求范围内继续保存。</li>
+      </ul>
 
-<h2>六、联系我们</h2>
-<p>如您对本隐私政策有任何疑问，可通过以下方式联系我们：</p>
-<p>邮箱：auroraseljuk.tech@gmail.com</p>
-<p>电话：17697340828</p>
+      <h2>七、您的权利</h2>
+      <p>在适用法律法规允许的范围内，您通常享有以下权利：</p>
+      <ul>
+        <li>查询、访问您的个人信息；</li>
+        <li>更正或补充不准确、不完整的信息；</li>
+        <li>删除您的个人信息；</li>
+        <li>撤回授权或同意；</li>
+        <li>申请注销账号；</li>
+        <li>就个人信息处理相关问题向我们提出意见、投诉或建议。</li>
+      </ul>
+      <p>
+        如果您希望访问、更正、删除个人信息，或撤回同意，可通过本政策“联系我们”部分提供的方式与我们联系。
+      </p>
 
+      <h2>八、未成年人信息说明</h2>
+      <p>
+        我们的产品和服务主要面向企业用户、经营者及具备完全民事行为能力的个人。
+        如果您是未成年人，请在监护人指导下阅读本政策并使用相关服务。
+      </p>
+
+      <h2>九、本政策的更新</h2>
+      <p>
+        我们可能根据业务调整、产品更新或法律法规要求，对本隐私政策进行修订。
+        若本政策发生重大变化，我们会通过网站页面更新、应用内展示或其他适当方式提示您。
+        更新后的版本自公布或注明的生效日期起生效。
+      </p>
+
+      <h2>十、联系我们</h2>
+      <p>如果您对本隐私政策或个人信息处理事项有任何疑问、意见、投诉或删除请求，可通过以下方式联系我们：</p>
+      <ul>
+        <li>公司名称：阿洛瑟柱（武汉市）智能科技有限公司</li>
+        <li>联系邮箱：auroraseljuk.tech@gmail.com</li>
+        <li>联系电话：17697340828</li>
+        <li>联系地址：湖北省武汉市洪山区民族大道182号中南民族大学石榴籽孵化基地214-4</li>
+      </ul>
+
+      <div class="footer">
+        © 2026 阿洛瑟柱（武汉市）智能科技有限公司
+      </div>
+    </main>
+  </div>
 </body>
 </html>
